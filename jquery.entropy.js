@@ -1,6 +1,12 @@
 /**
 * Password Entropy
 *
+* Modified by Josh W Lewis to allow shorter passwords
+* https://github.com/joshwlewis/jQuery-Password-Entropy
+*
+* Original code by Erik Brännström
+* https://github.com/erikbrannstrom/jQuery-Password-Entropy
+*
 * This jQuery plug-in is built to give an estimate of the entropy of a password.
 * Initial calculations assume a randomly generated password is used, and then
 * applies a heuristics approach to penalize some common problems that arise

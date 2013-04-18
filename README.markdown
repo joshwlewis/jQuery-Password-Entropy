@@ -1,19 +1,21 @@
 jQuery Password Entropy
 =======================
 
+(Modified version by Josh W Lewis to allow shorter passwords)
+
 This jQuery plug-in is built to give an estimate of the entropy of a password.
 Initial calculations assume a randomly generated password is used, and then
 applies a heuristics approach to penalize some common problems that arise
 with human-generated passwords.
 
 Some of the patterns used for creating the estimates are based on data collected
-in the paper "Testing Metrics for Password Creation Policies by Attacking Large 
+in the paper "Testing Metrics for Password Creation Policies by Attacking Large
 Sets of Revealed Passwords" by Weir et. al. and can be recommended as further
 reading for those interested.
 
 The default blacklisted passwords are based on lists downloaded from
 http://www.skullsecurity.org/ and then compiled to match the purpose of this
-plug-in. Only passwords with eight characters or more were kept in the list 
+plug-in. Only passwords with eight characters or more were kept in the list
 to save space, since my password policy doesn't allow anything shorter anyway.
 
 Created by Erik Brännström.
